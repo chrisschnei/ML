@@ -50,7 +50,8 @@ class ViewController: NSViewController {
     
     lazy var classificationRequest: VNCoreMLRequest = {
         do {
-            let model = try VNCoreMLModel(for: dog_classifier().model)
+//            let model = try VNCoreMLModel(for: dog_classifier().model)
+            let model = try VNCoreMLModel(for: ourdog_classifier().model)
 
             let request = VNCoreMLRequest(model: model, completionHandler: { [weak self] request, error in
                 self?.processClassifications(for: request, error: error)

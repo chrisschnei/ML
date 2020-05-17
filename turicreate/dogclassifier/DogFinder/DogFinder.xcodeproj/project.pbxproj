@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1642F423B3CB5500154906 /* ourdog_classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA1642F323B3CB5500154906 /* ourdog_classifier.mlmodel */; };
 		AA1B538523B0A4A50052E59E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B538423B0A4A50052E59E /* AppDelegate.swift */; };
 		AA1B538723B0A4A50052E59E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1B538623B0A4A50052E59E /* ViewController.swift */; };
 		AA1B538923B0A4AD0052E59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1B538823B0A4AD0052E59E /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA1642F323B3CB5500154906 /* ourdog_classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ourdog_classifier.mlmodel; path = ../../../ourdogclassifier/ourdog_classifier.mlmodel; sourceTree = "<group>"; };
 		AA1B538123B0A4A50052E59E /* DogFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1B538423B0A4A50052E59E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA1B538623B0A4A50052E59E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				AA1B538423B0A4A50052E59E /* AppDelegate.swift */,
 				AA1B538623B0A4A50052E59E /* ViewController.swift */,
 				AA1B539423B0A4C00052E59E /* dog_classifier.mlmodel */,
+				AA1642F323B3CB5500154906 /* ourdog_classifier.mlmodel */,
 				AA1B538823B0A4AD0052E59E /* Assets.xcassets */,
 				AA1B538A23B0A4AD0052E59E /* Main.storyboard */,
 				AA1B538D23B0A4AD0052E59E /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1B538723B0A4A50052E59E /* ViewController.swift in Sources */,
+				AA1642F423B3CB5500154906 /* ourdog_classifier.mlmodel in Sources */,
 				AA1B539523B0A4C00052E59E /* dog_classifier.mlmodel in Sources */,
 				AA1B538523B0A4A50052E59E /* AppDelegate.swift in Sources */,
 			);
